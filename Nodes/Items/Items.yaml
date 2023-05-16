@@ -1,0 +1,51 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: TextBox1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: TextBox1
+    Id: g=11f52348a7d5ea7eb81e5050abebd63c
+    Supertype: TextBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+- Name: Video1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Video1
+    Id: g=ebb03ade62ff9458339e25939ae42ca1
+    Supertype: Video
+    ReferenceType: HasComponent
+    Children:
+    - Class: Reference
+      Target: ns=5;i=379
+      Direction: Forward
+    - Class: Reference
+      Target: ns=5;i=381
+      Direction: Forward
+    - Class: Reference
+      Target: ns=5;i=383
+      Direction: Forward
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
